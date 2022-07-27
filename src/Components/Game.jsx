@@ -39,6 +39,10 @@ const Wrapper = styled.div`
     width: 400px;
     background-color: #25273C;
     padding: 15px 20px;
+    overflow-y: scroll;
+    ::-webkit-scrollbar {
+        width: 0;
+    }
 
     .allPlayers, .winner {
         b {
